@@ -92,12 +92,12 @@ body {
     .home-template .post-feed,
     .tag-template .post-feed,
     .author-template .post-feed {
-        margin-top: -70px;
+        margin-top: 40px;
         padding-top: 0;
     }
     .home-template .site-nav {
         position: relative;
-        top: -70px;
+        top: 0px;
     }
 }
 
@@ -110,7 +110,7 @@ body {
     padding-top: 12px;
     padding-bottom: 12px;
     color: #fff;
-    background: color(var(--darkgrey) l(-5%)) no-repeat center center;
+    background: color(var(--blue) l(-5%)) no-repeat center center;
     background-size: cover;
 }
 
@@ -149,9 +149,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10vw 4vw;
-    min-height: 200px;
-    max-height: 450px;
+    padding: 2vw 1vw;
+    min-height: 150px;
+    max-height: 250px;
     text-align: center;
 }
 
@@ -376,8 +376,8 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -20px;
-    padding: 40px 0 0 0;
+    margin: 0;
+    padding: 0;
 }
 
 .post-card {
